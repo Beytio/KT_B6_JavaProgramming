@@ -1,0 +1,13 @@
+   3. Create a class named Rectangle, write a program that can calculate the area & perimeter of any given Rectangle
+                                   						length
+                                   						width
+
+                                   						area = 0.5*length * width
+                                   						perimeter =  2 * (length + width)
+
+   4. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
+                                  					Hints: 1 gallon = 3.79 litters
+
+      5. Create a class named KgToPounds, write a program that can convert kg (int) to pounds (double)
+                                 					Hints: 1 kg = 2.2 pounds
+

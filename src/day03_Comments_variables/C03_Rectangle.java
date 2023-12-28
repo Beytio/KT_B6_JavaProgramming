@@ -10,6 +10,7 @@ public class C03_Rectangle {
         System.out.println("*         *");
         System.out.println("* * * * * *");
 
+
     }
 
 
