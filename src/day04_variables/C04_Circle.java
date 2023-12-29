@@ -3,7 +3,7 @@ package day04_variables;
 public class C04_Circle {
     public static void main(String[] args) {
 /*
-    Create a class named Circle, write a program that can calculate the area & perimeter of any given Circle
+        Create a class named Circle, write a program that can calculate the area & perimeter of any given Circle
         PI, radius, diameter, area, perimeter
 
         Hints: 	PI = 3.14

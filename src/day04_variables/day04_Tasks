@@ -2,7 +2,7 @@
                                    						length
                                    						width
 
-                                   						area = 0.5*length * width
+                                   						area = length * width
                                    						perimeter =  2 * (length + width)
 
    4. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
