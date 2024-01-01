@@ -69,6 +69,7 @@ public class C01_PrimitiveDataTypes {
         long numberOfAnts=15_666_222_552_225L;
         System.out.println(numberOfAnts);
 
+        //ondalıklı sayılar
         //float
         float fl=15.58f;
         float fl1=15.658f;
