@@ -12,6 +12,8 @@ public class C06_Task {
         verilen herhangi bir üç basamaklı sayının rakam değerlerinin toplamını bulan kod nedir;
        örnek : 981  9+8+1=18
         örnek :126  1+2+6=9
+
+        //NOT : çözümleri day07 CO5 classındadır.
          */
     }
 }
