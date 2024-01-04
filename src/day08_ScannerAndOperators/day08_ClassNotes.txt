@@ -1,0 +1,61 @@
+Day 08
+
+        Neler Öğrendik?
+
+        1. main()   method
+        2. print() & println()
+        3. escape chars \
+        4. primitive variables &  String variables
+        5. concatenation
+        6. casting (implicit, explicit)
+        7. arithmetic operators
+        8. scanner class
+
+
+        Arithmetic Operators
+
+        in  Math
+        10/4=  2.5
+        100/3= 33,33333333
+
+        in java
+        10/4 =  2;
+        100/3= 33;
+        10.0/4=2.5;
+        10/4.0=2.5;
+
+        20/6     =3;
+        20/6.0   =3.3333..;
+
+        remainder %modulus  Kalan
+        20%6    => 2
+        10%3    => 1
+
+        Öncelik sırası
+
+        ()
+        /*%
+        +-
+
+        20*(2-1)
+        15+2*3+12/4=15+6+3=24
+
+        Casting:
+        // implicit, automatic, widening = casting smaller type to larger/
+        // explicit, manual, narrowing = casting the larger type to smaller (veri kaybı olur)
+
+
+        Scanner
+
+        1. Adım -- Scanner sınıfından obje oluşturmak
+        Scanner scan/input/scanner =new Scanner(System.in);
+
+        2. Adım --  use scanner methods to get input from user
+        nextInt()
+        nextDouble()
+        nextBoolean()
+        nextLine()
+
+        3. scan.close;
+
+
