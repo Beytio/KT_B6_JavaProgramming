@@ -28,5 +28,6 @@ public class C07_ClassTask {
                 +" tane yuzluk "+yrimilik+" tanne yirmilik "+onluk+" tane onluk gerekmektedir");
 
 
+
     }
 }
