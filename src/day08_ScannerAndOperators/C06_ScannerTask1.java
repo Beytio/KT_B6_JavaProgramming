@@ -8,7 +8,7 @@ public class C06_ScannerTask1 {
         //Sayiya iki ekle ve karesini al yazdır
         Scanner scan=new Scanner(System.in);
 
-        System.out.println("litfen isim giriniz");
+        System.out.println("lütfen isim giriniz");
 
         String name=scan.nextLine();
 

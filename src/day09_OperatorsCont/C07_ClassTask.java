@@ -17,7 +17,7 @@ public class C07_ClassTask {
 
         System.out.println("hesap = " + hesap);
 
-        int yrimilik=20;
+        int yirimilik=hesap/20;
         hesap%=20;
 
         System.out.println("hesap = " + hesap);
@@ -25,7 +25,7 @@ public class C07_ClassTask {
         int onluk=hesap/10;
 
         System.out.println(odenecekTutar+" Tl için "+ikiyuzluk+" tane ikiyüzlük "+yuzluk
-                +" tane yuzluk "+yrimilik+" tanne yirmilik "+onluk+" tane onluk gerekmektedir");
+                +" tane yuzluk "+yirimilik+" tane yirmilik "+onluk+" tane onluk gerekmektedir");
 
 
 

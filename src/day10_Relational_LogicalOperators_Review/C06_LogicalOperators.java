@@ -74,6 +74,13 @@ public class C06_LogicalOperators {
         System.out.println("isPassed = " + isPassed);
         System.out.println("isFailed = " + isFailed);
 
+        boolean isAsker= true;
+        int yas =25;
+        boolean isLise=true;
+
+        boolean bl= isAsker && (yas<26) && isLise;
+        System.out.println("bl = " + bl);
+
 
     }
 }
