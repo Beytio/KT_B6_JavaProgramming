@@ -42,7 +42,6 @@ public class C06_If_ElseIf_Else {
             System.out.println("A büyüktür.");
         } else if (a==b) {
             System.out.println("Rakamlar eşittir");
-
         } else {
             System.out.println("B büyüktür");
         }
