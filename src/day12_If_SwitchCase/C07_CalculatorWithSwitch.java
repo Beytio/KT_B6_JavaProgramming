@@ -2,7 +2,7 @@ package day12_If_SwitchCase;
 
 import java.util.Scanner;
 
-public class C07_CalculatorWşthSwitch {
+public class C07_CalculatorWithSwitch {
     public static void main(String[] args) {
         //+,-,*,/
         // 4 işlem yapacak şekilde bir hesap makinesi yapın

@@ -45,8 +45,13 @@ public class C04_If_Switch_Ternary {
         System.out.println("-----------------");
 
 
-        String result=(harf=='p'|| harf=='P') ? "perşembe, pazartesi, pazar" : (harf=='s'|| harf=='S') ? "Salı" :
-                (harf=='c'|| harf=='C') ? "carşamba, cuma, cumartesi" : "geçersiz harf" ;
+        String result=(harf=='p'|| harf=='P')
+                ? "perşembe, pazartesi, pazar"
+                : (harf=='s'|| harf=='S')
+                ? "Salı"
+                :(harf=='c'|| harf=='C')
+                ? "carşamba, cuma, cumartesi"
+                : "geçersiz harf" ;
 
         System.out.println("result = " + result);
 
