@@ -27,5 +27,19 @@ public class C06_ForLoopIntro {
             System.out.println(i);
         }
 
+
+        for(int i =0; i <=5;){
+            System.out.println("hello world");
+            i++;
+
+        }
+
+        int z=5;
+        int y =0;
+        if (z>2){
+             y =z;
+        }
+        System.out.println("y = " + y);
+
     }
 }
