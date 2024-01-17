@@ -1,0 +1,52 @@
+Day 18
+ Method : Function
+
+        public static void main(String[] args){
+
+
+        }
+
+
+        declearaing a method
+
+       AccessModifier    Specifier    ReturnType   MethodName(Parameters){
+
+       }
+
+        Access Modifier : public, protected, default, private
+
+        Specifers : static, final, abstract, synchronised
+
+        Return Type : void, Any data Type-- (int, String, double....)
+
+        method name  : can be anything
+
+        parameters : any data type
+
+
+        Custom Methods
+
+        1. void methods
+        2. void methods wit parameters
+        3. return methods
+        4. return methods with parameter
+        5. method overloading
+
+
+  Tasks:
+            //	1. create a method that can print odd numbers between 1~100 in a same line saperated by space
+            //	2. create a method that can print even numbers between 1~100 in a same line saperated by space
+            //	3. create a method that can check if a person is eligible to buy alcohol age limit:21
+            //	4. create a method that can check if a person is eligible to vote
+            //    Ex:
+            //				eligibleToVote(19, "TR");
+            //
+            //			output:
+            //				You are eligible to vote!
+             //	5.create a method that can convert dollar to TL rate:29,2
+             //  6. create a method that can calculate the grade of the student based on the score
+                     // score >= 90 grade 'A'
+                     // score >= 80 grade 'B'
+                     // score >= 70 grade 'C'
+                     // score >= 60 grade 'D'
+                     // score < 60 grade 'F'
