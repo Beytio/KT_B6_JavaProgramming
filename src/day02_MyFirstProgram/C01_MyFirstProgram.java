@@ -1,6 +1,8 @@
 
 package day02_MyFirstProgram;
 
+import day19_ReturnMethodsAndMethodOverloading.C03_Faktoriyel;
+
 public class C01_MyFirstProgram {
 
     public static void main(String[] args){
@@ -17,6 +19,7 @@ public class C01_MyFirstProgram {
         gkjsdf
 
          */
+      //  System.out.println("C03_Faktoriyel.faktoryelHesaplama(5) = " + C03_Faktoriyel.faktoryelHesaplama(5));
 
     }
 
