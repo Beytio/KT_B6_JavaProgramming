@@ -10,3 +10,5 @@ public class C07_Homework {
 create a method that can calculate the area of a square
 karenin alanını hesaplayabilecek bir metot oluştur
  */
+
+// iyi geceler
