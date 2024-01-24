@@ -2,10 +2,10 @@ package day21_ClassAndMethods;
 
 public class Car {
 
-    String marka;
-    String model;
-    String renk;
-    int hiz;
+    public String marka;
+    public String model;
+    public String renk;
+    public int hiz;
 
     public void calistir(){
         System.out.println(marka+ " calişiyor.");
