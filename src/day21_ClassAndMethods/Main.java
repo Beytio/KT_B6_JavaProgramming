@@ -50,9 +50,13 @@ public class Main {
         System.out.println("dog1.kisirMi = " + dog1.kisirMi);
         System.out.println("dog2.kisirMi = " + dog2.kisirMi);
 
+*/
+
 
         Car car1 = new Car();
-        car1.marka = "Mazda";
+        System.out.println("car1 = " + car1);  //day21_ClassAndMethods.Car@2d98a335
+
+        car1.marka = "Toyota";
         car1.model = "Mazda 3";
         car1.renk = "Siyah";
         car1.hiz = 220;
@@ -60,6 +64,38 @@ public class Main {
         car1.calistir();
         car1.hizlan();
         car1.dur();
+
+        System.out.println("car1.marka = " + car1.marka);
+
+        Car car2=new Car();
+        System.out.println("car2 = " + car2);// day21_ClassAndMethods.Car@7cc355be
+        car2.marka="Mazda";
+
+
+        System.out.println(car1==car2);
+
+
+        System.out.println("----------------");
+        car1=car2;
+        System.out.println("car1.marka = " + car1.marka);
+
+
+        car1.marka="Mercedes";
+        System.out.println("car2.marka = " + car2.marka);
+
+
+        System.out.println(car1==car2);
+        System.out.println("car1 = " + car1);
+        System.out.println("car2 = " + car2);
+        System.out.println("car1.marka = " + car1.marka);
+
+        System.out.println("car2.marka = " + car2.marka);
+
+
+
+
+
+/*
 
         System.out.println("car1.model = " + car1.model);
 
@@ -70,7 +106,7 @@ public class Main {
         System.out.println("circle1.area() = " + circle1.area());
         System.out.println("circle1.perimeter() = " + circle1.perimeter());
         System.out.println("circle1.radius = " + circle1.radius);
-        */
+
 
         Musteri musteri1= new Musteri();
         musteri1.ad="Selma";
@@ -80,5 +116,26 @@ public class Main {
         musteri1.yas =36;
 
         System.out.println("musteri1.sifre() = " + musteri1.sifre());
+
+
+
+        Circle circle1= new Circle();
+        System.out.println("circle1.radius = " + circle1.radius);
+        System.out.println("circle1.PI = " + circle1.PI);
+
+        circle1.radius=5;
+        System.out.println("circle1.radius = " + circle1.radius);
+
+
+        System.out.println("circle1.area() = " + circle1.area());
+        System.out.println("circle1.perimeter() = " + circle1.perimeter());
+
+
+        Circle circle2=new Circle();
+        System.out.println("circle2.radius = " + circle2.radius);
+        circle2.radius=8;
+
+        System.out.println("circle2.area() = " + circle2.area());
+ */
     }
 }
