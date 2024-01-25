@@ -2,6 +2,9 @@ package day23_StringClass;
 
 public class C03_StringMethods {
     public static void main(String[] args) {
+        String a="Hasan";
+
+
         String programmingLanguage="Java";// literal way Heap memory--- String Pool
         System.out.println("programmingLanguage = " + programmingLanguage);
 
