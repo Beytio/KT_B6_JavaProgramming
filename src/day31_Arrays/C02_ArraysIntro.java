@@ -6,6 +6,7 @@ public class C02_ArraysIntro {
         //deklare etme ve boyut belirleme
 
 
+        int age=4;
 
         int [] intArr1 = new int[10];
 
