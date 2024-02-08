@@ -1,4 +1,4 @@
-package day31_Arrays;
+package day31_Arrays_01;
 
 public class C02_ArraysIntro {
     public static void main(String[] args) {
