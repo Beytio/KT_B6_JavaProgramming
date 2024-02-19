@@ -3,7 +3,7 @@ package day40_WeekReview;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class C01_CombibeArray {
+public class C01_CombineArray {
     public static void main(String[] args) {
         String [] arr1={"A","B","C"};
         String [] arr2={"D","E", "G", "F"};
