@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class C05_BankaMusterisi {
     public final static String bankaAdi = "Garanti BBVA";
-
     private String adSoyad;
     private String hesapNo;
     private double bakiye;

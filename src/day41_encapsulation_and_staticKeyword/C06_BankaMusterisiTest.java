@@ -1,5 +1,7 @@
 package day41_encapsulation_and_staticKeyword;
 
+import java.util.Arrays;
+
 public class C06_BankaMusterisiTest {
     public static void main(String[] args) {
         System.out.println(C05_BankaMusterisi.bankaAdi);
@@ -42,5 +44,7 @@ public class C06_BankaMusterisiTest {
 
         System.out.println("musteri_1 = " + musteri_1);
         System.out.println("musteri_2 = " + musteri_2);
+
+
     }
 }
