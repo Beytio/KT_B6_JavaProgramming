@@ -19,7 +19,7 @@ public class C05_BankaMusterisi {
     }
 
     {
-        System.out.println("Her kayıt alınırken hesap no otomatik oluşturulacak");
+        System.out.println("Her kayıt alınırken hesap no otomatik oluşturulacaktır.");
     }
 
     public C05_BankaMusterisi() {
@@ -41,7 +41,8 @@ public class C05_BankaMusterisi {
     public void setHesapNo() {
         Random random = new Random();
        int randomSayi= random.nextInt(99999999)+1000000;
-        String hesapNo = "TR"+musteriNo+randomSayi+"1256";
+       int randomSon = random.nextInt(89)+10;
+        String hesapNo = "TR"+musteriNo+randomSayi+"0000 0007 1256 "+randomSon;
         this.hesapNo = hesapNo;
     }
 
@@ -68,6 +69,15 @@ public class C05_BankaMusterisi {
             System.out.println("Yetersiz bakiye");
         }
     }
+
+    public void bakiyeKontrol(){
+        if (bakiye>=1000000){
+            System.out.println("Özel Müşteri");
+            System.out.println(adSoyad+"'nın özel numarası 02124440512 dir.");
+        } else {
+            System.out.println("Özel müşteri kapsamında değildir.");
+        }
+    }
         @Override
         public String toString() {
             return "C05_BankaMusterisi{" +
@@ -76,5 +86,12 @@ public class C05_BankaMusterisi {
                     ", bakiye=" + bakiye +
                     '}';
 
+    }
+
+    public static void hesapAcmaKurallari(){
+        System.out.println(bankaAdi+ " hesap açma usulleri : ");
+        System.out.println("1 - Her müşterinin adı admin şifresi ile girilecektir.");
+        System.out.println("2 - Bakiyesi 1.000.000 $ üzerinde olanlara ek hat sağlanacaktır.");
+        System.out.println("3 - Yeni müşterilere hoş geldin hediyesi olarak Kredi Kartı verilecektir.");
     }
 }

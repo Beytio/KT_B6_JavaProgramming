@@ -33,5 +33,14 @@ public class C06_BankaMusterisiTest {
 
         System.out.println("musteri_1 = " + musteri_1);
         System.out.println("musteri_2 = " + musteri_2);
+
+        musteri_1.paraYatirma(580000);
+        musteri_1.paraYatirma(680000);
+
+        musteri_1.bakiyeKontrol();
+        musteri_2.bakiyeKontrol();
+
+        System.out.println("musteri_1 = " + musteri_1);
+        System.out.println("musteri_2 = " + musteri_2);
     }
 }
