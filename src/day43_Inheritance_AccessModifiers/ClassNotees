@@ -1,0 +1,11 @@
+Access Modifiers
+
+                                    Public                  Private             Protected           Default
+
+         1. Same Class              Yes                        Yes                 Yes                 Yes
+
+         2. Same Package            Yes                         No                  Yes                 Yes
+
+         3. Different Package        Yes                        No
+                SubClass                                                            Yes                 No
+                Non Subclass                                                        No                  No
