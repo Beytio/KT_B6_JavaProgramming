@@ -63,7 +63,7 @@ public class C08_TestCalculator {
         // private metot ve variablelar kesinlikle child classlara aktarılmaz. (getter ile olabilir)
 
         // parent classtan alınan metot ya da variable child classta da varsa.. child class parenttakini
-        // değil kendi variable ya da matodunu kullanır.
+        // değil kendi variable ya da metodunu kullanır.
 
 
 
