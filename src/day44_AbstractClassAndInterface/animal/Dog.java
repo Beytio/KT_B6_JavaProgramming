@@ -1,30 +1,34 @@
 package day44_AbstractClassAndInterface.animal;
 
-public class Dog extends Animal implements Playable{
+public class Dog extends Animal implements Playable {
 
-    public boolean isK9;
+//    public boolean isK9;
 
     public Dog(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
-    }
-
-    public  void eat(){
-        System.out.println(getName()+ " is eating bone");
+//        this.isK9=isK9;
     }
 
     @Override
-    public void play() {
-        System.out.println(getName()+ " is playing with ball");
+    public void eat() {
+        System.out.println(getName()+" is eating bone");
+    }
+
+
+
+    // bu methodu Playable Interface den sonra yaz
+    public void play(){
+        System.out.println(getName()+" is playing with the ball");
     }
 
     public void bark(){
-        System.out.println(getName()+" is barking");
+        System.out.println(getName()+" is barking ");
     }
 
     @Override
     public String toString() {
         return "Dog{" +
-                "isK9=" + isK9 +
-                '}';
+//                "isK9=" + isK9 +
+                "} " + super.toString();
     }
 }

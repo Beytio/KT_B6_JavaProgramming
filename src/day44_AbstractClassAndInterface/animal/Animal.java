@@ -1,36 +1,41 @@
 package day44_AbstractClassAndInterface.animal;
 
-import java.lang.reflect.AnnotatedArrayType;
-
 public abstract class Animal {
+
     private String name;
-    private final String breed;
-    private  char gender;
+
+    private final String breed;// cons ta tanımlayınca hata kalkar
+
+    private char gender;
+
     private int age;
+
     private String size;
+
     private final String color;
 
+    public final static boolean canBreathe;// cons içinde değilde static blok içinde
+                                        // başlatılır ilk obje oluşurken çalışır birdah çalışma
+    static {
+        canBreathe=true;
+    }
 
-
-
-    public abstract void eat();
+    public abstract void eat();//abstract class different in all elements
 
     public final void drinkWater(){
-        System.out.println(name+ " is drinking water ");
+        System.out.println(name+" is drinking water");
     }
 
 
-
     public Animal(String name, String breed, char gender, int age, String size, String color) {
-       // this.name = name;
+        //this.name = name;
         setName(name);
         this.breed = breed;
-        if (!(gender=='M'||gender=='m'||gender=='F'||gender=='f')){
-            System.err.println("Invalid gender "+ gender);
+        if(!(gender=='M'||gender=='m'|| gender=='F'|| gender=='f')){  // set method da yapmaktan farkı obje oluştururken
+            System.err.println("Invalid Gender "+gender);              // atama yapmak cinsiyet yaratılırken ortaya çıkıyo
         }else {
-            this.gender=gender;
+            this.gender = gender;
         }
-       // this.age = age;
         setAge(age);
         this.size = size;
         this.color = color;
@@ -42,12 +47,11 @@ public abstract class Animal {
     }
 
     public void setName(String name) {
-        if (name.isEmpty()||name.isBlank()){
-            System.err.println("Invalid name");
-        }else {
-            this.name = name;
-        }
-
+       if(name.isEmpty()||name.isBlank()){
+           System.err.println("Invalid Name");
+       }else {
+           this.name= name;
+       }
     }
 
     public String getBreed() {
@@ -63,12 +67,15 @@ public abstract class Animal {
     }
 
     public void setAge(int age) {
-        if (age<0){
-            System.err.println("Invalid age "+ age);
-        }{
+
+        if (age < 0) {
+            System.err.println("Invalid age " + age);
+        }
+        {
             this.age = age;
         }
     }
+
 
     public String getSize() {
         return size;

@@ -1,32 +1,29 @@
 package day44_AbstractClassAndInterface.animal;
 
-import day21_ClassAndMethods.Main;
-
 public class MyZoo {
     public static void main(String[] args) {
-       // Animal animal=new Animal("Monkey", "Scottish",'m',4,"Medium", "Gray");
-        // Can not create objects from abstract class
+//        Animal animal = new Animal("Monkey","Mammal",'m',15,"Large","Black");
+//        Cannot create objects from abstract classes
 
-        //CanFly canFly=new CanFly();
-        // Can not create objects from interface
+//        CanFly canFly = new CanFly(); interface
+//        Cannot create objects from interfaces
 
-        Cat cat=new Cat("Bulut", "Scottish", 'm', 6,"Medium", "Black");
+        Cat cat = new Cat("Bulut","Scottish",'m',4,"Medium","Gray");
         System.out.println(cat);
         cat.eat();
         cat.play();
         cat.meow();
+        cat.setAge(5);
+        System.out.println(cat);
         cat.drinkWater();
 
-
-        Dog dog=new Dog("Karabaş","Malaklı",'f', 7, "Large", "Black and white");
-        System.out.println(dog.getAge());
-        dog.setAge(12);
+        Dog dog = new Dog("Karabas","Malakli",'m',7,"Large","Black and White");
         System.out.println(dog.getAge());
         dog.bark();
+        dog.drinkWater();
         dog.play();
+        dog.setName("Akbas");
         System.out.println(dog);
-
-
 
 
     }
