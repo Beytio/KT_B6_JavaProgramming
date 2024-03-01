@@ -6,6 +6,8 @@ Topic: Abstraction
             abstract class vs class
             abstract class vs interface
 
+OOP: Object Oriented Programming
+
 OOP Encapsulation: hiding the data
 OOP Inheritance: creating IS A relation between classes (parent/child  or super/sub)
             method overriding: giving different implementation to the method

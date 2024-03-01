@@ -1,0 +1,24 @@
+What is exceptions?
+
+    1. Compile Time Error
+    2. Logical Error
+    3. RunTime Error
+
+    Statement
+    1. normal statment
+    2. critical statment
+
+    Exception Hierracy in Java
+
+
+                    OBJECT CLASS
+
+                    THROWABLE
+
+                    EXCEPTION
+
+
+                    1. Runtime Exception (unchecked)            2. SQL Exception        3. IOException
+                        a. Arithmetic exp
+                        b. ArrayIndex Out Of Bound
+                        c. NullPointer exp
