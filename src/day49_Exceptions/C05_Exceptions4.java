@@ -6,7 +6,7 @@ public class C05_Exceptions4 {
         int j=0;
 
 
-        String str=null;
+        String str="null";
 
 
         int nums[]=new int[5];
@@ -18,9 +18,9 @@ public class C05_Exceptions4 {
             System.out.println(nums[5]);
 
         }catch (ArithmeticException e){
-            System.out.println("Cannot divide by zero"+e);
+            System.out.println("Cannot divide by zero "+e);
         }catch (IndexOutOfBoundsException e){
-            System.out.println("Stay in limit"+e);
+            System.out.println("Stay in limit "+e);
         }catch (Exception e){
             System.out.println("Something went wrong");
         }

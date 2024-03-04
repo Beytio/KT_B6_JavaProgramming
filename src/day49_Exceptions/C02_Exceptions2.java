@@ -12,7 +12,7 @@ public class C02_Exceptions2 {
             System.out.println(x*10);//a --- InputMismatchException
             System.out.println(5/x);//0 --- ArithmeticException: / by zero
         }catch (Exception e){
-            System.out.println("Hata alındı"+ e);
+            System.out.println("Hata alındı "+ e);
             System.out.println(e.getMessage());
             e.printStackTrace();
         }

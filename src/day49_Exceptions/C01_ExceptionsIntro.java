@@ -11,7 +11,7 @@ public class C01_ExceptionsIntro {
         try {
             j = 25 / i;
         }catch(Exception e){
-            System.out.println("Something went wrong"+e);// ArithmeticException: / by zero
+            System.out.println("Something went wrong "+e);// ArithmeticException: / by zero
         }
 
         System.out.println(j);
