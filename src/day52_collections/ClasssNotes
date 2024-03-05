@@ -1,0 +1,25 @@
+
+Data yapıları
+    Array
+    Collections
+    Map
+
+Array:
+    Boyutu sabittir.
+    hem primitive hem de non-primitive (obje) data türünü destekler
+
+Collections
+    Boyutu dinamiktir.
+    Sadece objeleri destekler (Wrapper)
+    Collection bir interfacedir.
+
+    List (Interface)
+        Aynı değeri kabul eder (allow duplicates)
+        Giriş sırasını korur
+        İndex numarası vardır.
+
+        ArrayList  (iç yapısında arraylari kullanırlar, data erişiminde hızlıdırlar)
+        LinkedList (nodelar vardır, önceki ve sonraki elemente referans ile bağlanır)
+                    (böylece daha hızlı çalışır (element ekleme ve silmede) ancak hafızada daha fazla yer kaplarlar)
+        Vector  (Thread safe ve synchronised)
+        Stack  -- LIFO  (Last in First Out)

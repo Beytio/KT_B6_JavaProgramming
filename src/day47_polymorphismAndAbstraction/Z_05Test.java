@@ -10,6 +10,14 @@ public class Z_05Test {
         emirdagLisesi.dersler();
         emirdagLisesi.ogtrenciListe();
 
-        // Z01_Okul_Vilayet okulVilayet = new Z01_Okul_Vilayet(); CTE verir.
+        emirdagLisesi.yemekListesi();
+
+         // Z01_Okul_Vilayet okulVilayet = new Z01_Okul_Vilayet(); //CTE verir.
+
+        Z01_Okul_Vilayet okulVilayet = new Z03_EmirdagLisesi();
+
+        System.out.println("((Z03_EmirdagLisesi) okulVilayet).yemekListesi() = " + ((Z03_EmirdagLisesi) okulVilayet).yemekListesi());
+
+
     }
 }

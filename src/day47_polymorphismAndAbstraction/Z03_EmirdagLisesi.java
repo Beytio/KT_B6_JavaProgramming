@@ -28,4 +28,8 @@ public class Z03_EmirdagLisesi extends Z02_Okul_Emirdag{
         return null;
     }
 
+    public String yemekListesi(){
+        return "Emirdağ Lisesi Yemek Listesi";
+    }
+
 }
