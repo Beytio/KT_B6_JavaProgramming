@@ -1,0 +1,11 @@
+        COLLECTION API- CONSEPTTİR-- Application Programming Interface
+
+        Collection ---- Interface
+        Collections  -- Class
+
+
+                            Collection (I)
+        List (I)                Set (I)                 Queue (I)
+        -ArrayList              HashSet                 -Dequeue
+        -LinkedList             TreeSet
+                                LinkedHashSet

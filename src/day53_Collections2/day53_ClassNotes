@@ -1,0 +1,29 @@
+---SET
+---QUE
+
+Collection
+                dynamic size
+                non primitives only
+                ready methods
+
+      LIST    : has index, dublicates are allowed
+                ArrayList (C)   : search / accessing element is faster
+                LinkedList (C)  : insertion/deletion  of an element is faster
+                Vector (C)      : is Syncronised --- thread safe
+                    Stack (C)  : LIFO
+                            pop(), push()
+
+      SET(I)    : does not have index, does not allowed duplicates
+
+                HashSet : order random, null
+                Linked HashSet  insertion order preserved, null
+                TreeSet     : doesnot accept NULL
+                                is sorted (Artan , küçükten büyüğe)
+
+      QUEUE(I)  : does allow duplicates, does not have index
+                poll()---- >
+                FIFO-- First in First Out
+
+                PriorityQueue(C)    : Maintains randoms
+                ArraysDequeue (C)   : maintains insertion order
+                LinkedList (C)      : Maintains insertion order
