@@ -18,6 +18,7 @@ public class TestClass {
         System.out.println(fish.color); //Rengi belli değil
         System.out.println(fish.gender); //null
 
+        System.out.println("-------------------");
         fish.hareket();  //yüzerler
         fish.beslenme();  //ot yerler
 
@@ -64,5 +65,7 @@ public class TestClass {
 
         System.out.println("animal.getClass().getConstructors() = " + animal.getClass().getConstructors().length);
         System.out.println("name.getClass().getConstructors() = " + name.getClass().getConstructors().length);
+
+        Fish fish1 = (Fish) animal; // down casting
     }
 }
