@@ -75,7 +75,7 @@ public class C03_MapExample {
 
         String[] arrayList=(String[])o;
         for (String s : arrayList) {
-            
+            System.out.println(s);
         }
         
             
